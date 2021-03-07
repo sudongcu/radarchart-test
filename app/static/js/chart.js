@@ -11,6 +11,7 @@ var RadarChart = {
         var h = 400;
 
         var showLevelsLabel = level == 1 ? false : true;
+        var color = level == 1 ? "#FE5E5E" : "#38ADC1";
         // initiate default config
         var config = {
             w: w,
@@ -32,7 +33,7 @@ var RadarChart = {
             translateY: h / 4,
             paddingX: w,
             paddingY: h,
-            colors: '#FE5E5E', //d3.scale.category10(),  //FE5E5E
+            colors: color, //d3.scale.category10(),  //FE5E5E
             showLevels: true,
             showLevelsLabels: showLevelsLabel,
             showAxesLabels: true,
