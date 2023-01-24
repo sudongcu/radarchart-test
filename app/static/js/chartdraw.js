@@ -16,14 +16,19 @@ function InitRadar() {
     document.getElementById('rightSVG').style.display = "none";
 }
 
+/** Draw Bar Chart */
 function DrawBar(id) {
-    // InitRadar();
     document.getElementById(id).style.display = "block";
     BarChart.draw(id);
 }
 
-function DrawRader(level, id, group, values, edge) {
-    // InitBar();
+/** Draw Radar Chart */
+// level: 1~5 레이더
+// id: 레이더 위치 할 element id
+// group: 레이더 그룹 명 ( 차트 아래 표시 )
+// values: 표시될 value 값 ( 배열 )
+// edge: 레이더 차트 edge 수
+function DrawRadar(level, id, group, values, edge) {
 
     document.getElementById(id).style.display = "";
 
