@@ -4,6 +4,7 @@
 - d3 link: https://github.com/alangrafu/radar-chart-d3
 - base version source: http://bl.ocks.org/nbremer/6506614
 - radar.js, radardraw.js는 참고를 위해 받은 기존 소스로 그대로 두어 비교를 위한 데이터로 남겨두었다.
+- 참고한 소스와의 차이점은 radar.js 영역에서 필요없는 부분을 제거하였고, radardraw.js의 경우 csv 데이터로 차트를 그리지만 웹 데이터를 기반으로 사용하고 싶어 필요한 데이터를 js function의 매개변수로 받아 차트를 그리는 방식으로 구현하였다.
 
 ``` javascript
 // level: 1~5 레이더
