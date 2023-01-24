@@ -3,7 +3,7 @@
 - d3 레이더 차트 관련 소스 참고하여 구현.
 - d3 link: https://github.com/alangrafu/radar-chart-d3
 - base version source: http://bl.ocks.org/nbremer/6506614
-- radar.js, radardraw.js는 기존 소스 그대로 두어 비교를 위한 데이터로 남겨두었다.
+- radar.js, radardraw.js는 참고를 위해 받은 기존 소스로 그대로 두어 비교를 위한 데이터로 남겨두었다.
 
 ``` javascript
 // level: 1~5 레이더
