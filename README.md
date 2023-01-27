@@ -1,4 +1,4 @@
-# radarchart_test
+# radarchart-test
 ### javascript 레이더 구현 테스트
 - d3 레이더 차트 관련 소스 참고하여 구현.
   - chart.js
